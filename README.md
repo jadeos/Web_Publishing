@@ -57,3 +57,8 @@ The charts were created using theHighcharts.js API. This was interesting to impl
 This assignment was an interesting one to do. I enjoyed specifically learning about high charts work. For future work, I would like to achieve many elements that I couldn’t achieve due to time restrictions. For example, I’d like to get the line chart to show the year the artist was born and the artist instead of the number. I would like to change the settings page so that the user can change other css elements such as font style, text colour, navigation menu etc. I would also re-style the ocean theme completely. 
 Since these are only minor changes that I would make, I am quite satisfied with this project as it demonstrates the main concepts that I wanted to achieve. 
 
+
+##References and Credits: 
+This project has obtained its data from the following Github repositary:
+
+https://github.com/tategallery/collection 
