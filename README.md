@@ -4,7 +4,7 @@ The homepage is the index.jade template. It consists of a carousel with 10 popul
 ## Charts
 ###### The total of artists born in a given year
 This is a basic line chart.  I had to write a script that found each year and each artist. I had a counter variable set to 1, since at least one artist would be born in that year. If more than one artist was born that year, the counter would add 1 for each of those artists. 
-
+![Alt text](https://github.com/jadeos/Web_Publishing/blob/master/Tate%20Gallery%20Assignment/chart-artistborn.png)
  
 ###### The percentage of total works sold by each artist.
 The chart below shows the percentage of the total works sold by each artist. Currently I’ve limited it to 10 artists as it was faster to load. This can be easily modified in the index.js routes file. I’ve decided to do this chart as I thought it had some value. For example, users  might want to have a clear view of the artist data.  The user can also view more information by clicking on the pie section of the image and the artist page will load, displaying that specific artist’s details such as birth year etc.  The navigation part I had to add a click event and an anchor tag in my artist.jade file with a div id of the artist name. This made it easy for me to navigate to a section of the page containing the artist’s information. 
