@@ -1,5 +1,5 @@
 For this assignment, I designed and implemented a theme for Tate gallery using three important features. 
-##Homepage
+## Homepage
 The homepage is the index.jade template. It consists of a carousel with 10 populated images from the database and two high charts displaying data about 10 artists form the database. The reason I limited the results to 10 is because of the time it takes to load. This can easily be changed in the index.js routes file when the data is being queried. 
 ## Charts
 ###### The total of artists born in a given year
