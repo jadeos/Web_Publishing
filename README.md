@@ -26,7 +26,7 @@ In this page, users can view a list of the artists in Tate gallery. It is curren
 ## Artworks.jade
 In this page, users can view a list of the artworks in the tate gallery. It is currently limited to 10 as it is faster to load. In this file, the user can see the artwork title, acquisition year, Url, medium and dimensions. However, this data can be modified to allow more data about the artist to be added or changed.
  
- ![Alt text](https://github.com/jadeos/Web_Publishing/blob/master/Tate%20Gallery%20Assignment/chart-artdir.png)
+ ![Alt text](https://github.com/jadeos/Web_Publishing/blob/master/Tate%20Gallery%20Assignment/artdir.png)
 
 ## Settings.jade
 This file is responsible for changing the theme of the data. 
