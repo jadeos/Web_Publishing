@@ -15,13 +15,18 @@ The chart below shows the percentage of the total works sold by each artist. Cur
 
 ## Carousel
 I’ve also added a carousel on the home page as I wanted to give users a gallery-like feel for the application. I could have done an image gallery, however, I felt like the carousel was more suitable for what I had originally planned for the application. The carousel shows the user the artwork image, and the artist. Users can view more information about that artwork by clicking on the image. Then the artworks.jade file will display the current artwork in the artwork directory. The carousel was achieved using bootstrap and my own customised JavaScript. The JavaScript part was used to access loop through each result and display them in the carousel.
- 
+
+![Alt text](https://github.com/jadeos/Web_Publishing/blob/master/Tate%20Gallery%20Assignment/carousel.png)
+
 ## Artists.jade 
 In this page, users can view a list of the artists in Tate gallery. It is currently limited to 10 as it is faster to load. In this file, the user can see the artist name, date of birth, gender, total works and url. However, this data can be modified to add more data about the artist. 
  
+ ![Alt text](https://github.com/jadeos/Web_Publishing/blob/master/Tate%20Gallery%20Assignment/artistdir.png)
+ 
 ## Artworks.jade
 In this page, users can view a list of the artworks in the tate gallery. It is currently limited to 10 as it is faster to load. In this file, the user can see the artwork title, acquisition year, Url, medium and dimensions. However, this data can be modified to allow more data about the artist to be added or changed.
-  
+ 
+ ![Alt text](https://github.com/jadeos/Web_Publishing/blob/master/Tate%20Gallery%20Assignment/chart-artdir.png)
 
 ## Settings.jade
 This file is responsible for changing the theme of the data. 
@@ -34,6 +39,10 @@ o	This is more of a personalised theme. The styling is currently set to change t
 I created the two themes and made them persistent to the database by storing a value in the database called ‘theme’. If theme was set to ‘default’, the default jade templates would load (artists.jade, artworks.jade). These templates would have their own personalised styling in the CSS. When the ocean theme is selected, the ‘theme’ value will update to be called ‘ocean’ and when the user loads either the artist or artworks pages, the ocean theme style would be displayed using separate jade files (art.jade, gallery.jade). 
 
 I had only enough time to change the overall theme for both artists.jade and artworks.jade. The reason I didn’t change the theme for settings or the homepage is because I had difficulty changing the entire thing, including the nav menu which is in layout.jade. 
+
+![Alt text](https://github.com/jadeos/Web_Publishing/blob/master/Tate%20Gallery%20Assignment/defaultset.png)
+
+![Alt text](https://github.com/jadeos/Web_Publishing/blob/master/Tate%20Gallery%20Assignment/oceanset.png)
 
 
 
