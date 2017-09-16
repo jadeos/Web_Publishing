@@ -58,7 +58,7 @@ This assignment was an interesting one to do. I enjoyed specifically learning ab
 Since these are only minor changes that I would make, I am quite satisfied with this project as it demonstrates the main concepts that I wanted to achieve. 
 
 
-##References and Credits: 
+## References and Credits: 
 This project has obtained its data from the following Github repositary:
 
 https://github.com/tategallery/collection 
